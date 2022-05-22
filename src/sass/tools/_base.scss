@@ -1,0 +1,140 @@
+// Для переменных
+
+$accent-color: #d41443;
+$button-hover-background: #ecebeb;
+$food-truck-background: #c2e297;
+$cafe-background: #f0d1a5;
+$white-color: #ffffff;
+$primary-text-color: #000000;
+$secondary-text-color: #907e82;
+$label-color: #ffa5ba;
+$menu-background: #e17992;
+$hero-background: #FFB8CA;
+$social-icons-background: #fea5bb;
+$footer-background:#FFF5F6;
+$time:500ms;
+$cubic:cubic-bezier(0.4, 0, 0.2, 1);
+$footer-contacts-text:000000;
+$footer-border:#e1e1e1;
+// Сброс стилей
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  &:hover {
+    transform: scale(1.1);
+    transition-duration: $time;
+    transition-timing-function: $cubic;
+  }
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+%visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+// Общие контейнеры
+
+body {
+  background-color: $white-color;
+  font-family: “DM Sans”, sans-serif;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  color: #000000;
+}
+
+.container {
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+
+
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+}
+
+%button {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+}
+
+.hoover {
+  &:hover {
+    transform: scale(1.1);
+    transition-duration: $time;
+    transition-timing-function: $cubic;
+  }
+}
