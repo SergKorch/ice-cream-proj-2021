@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://sergkorch.github.io/project-12/.git"
+    "url": "git+https://github.com/sergkorch/project-12/.git"
   },
   "keywords": [],
   "author": "Serhii Korchemkin <skorchemkin1987@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://sergkorch.github.io/project-12/issues"
+    "url": "https://github.com/sergkorch/project-12/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
