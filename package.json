@@ -1,22 +1,22 @@
 {
-  "name": "project-12",
+  "name": "ice-cream-proj-2021",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sergkorch.github.io/project-12",
+  "homepage": "https://sergkorch.github.io/ice-cream-proj-2021",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project-12/"
+    "build": "parcel build src/*.html --public-url /ice-cream-proj-2021/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergkorch/project-12.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Serhii Korchemkin <skorchemkin1987a@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sergkorch/project-12/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
