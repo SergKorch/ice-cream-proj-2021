@@ -6,7 +6,9 @@
   "homepage": "https://sergkorch.github.io/project-12",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project-12/"
+    "build": "parcel build src/*.html --public-url /project-12/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
     "url": "https://github.com/sergkorch/project-12/issues"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
@@ -30,4 +33,3 @@
     "masonry-layout": "^4.2.2"
   }
 }
-
