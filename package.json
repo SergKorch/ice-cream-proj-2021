@@ -1,27 +1,24 @@
 {
-  "name": "project-12",
+  "name": "parcel-project-template",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sergkorch.github.io/project-12",
+  "homepage": "https://rainb00w.github.io/project-12",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project-12/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "parcel build src/*.html --public-url /project-12/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergkorch/project-12/.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Serhii Korchemkin <skorchemkin1987@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sergkorch/project-12/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
@@ -33,3 +30,4 @@
     "masonry-layout": "^4.2.2"
   }
 }
+
